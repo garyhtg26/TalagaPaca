@@ -1,11 +1,9 @@
 <x-main-layout>
     <section id="atraksi">
-      <div class="">
-        <div class="section" style="padding-top: 10%">
-          <div class="container card p-5" style="margin: auto;width: 65%;border-radius:20px">
-
+      <div class="container pt-10">
+          <div class="card card-1">
                 <div class="px-3">
-                    <h1 class="text-center mb-4 text-title" style="width:80%;text-transform: uppercase">{{ __('text.atraksi.title') }}</h1>
+                    <h1 class="text-center mb-4 text-title w-80 text-uppercase">{{ __('text.atraksi.title') }}</h1>
                    <div class="container-atraksi row">
                         <div class="col-12">
                             <div class="row">
@@ -15,7 +13,7 @@
                                 </div>
                                 <div class="col-md-8 col-sm-12">
                                     <div class="text-description text-sm">{{ substr(__('text.atraksi.konten_jungle'), 0, 155) }}...</div>
-                                    <button onclick="window.location='{{ url("/atraksi-wisata/jungle-tracking") }}'" class="btn btn-black-transparent">Selengkapnya <i class="fa-solid fa-arrow-right"></i></button>
+                                    <button onclick="window.location='{{ url("/atraksi-wisata/jungle-tracking") }}'" class="btn btn-black-transparent">{{__('text.selengkapnya')}} <i class="fa-solid fa-arrow-right"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -27,7 +25,7 @@
                                 </div>
                                 <div class="col-md-8 col-sm-12">
                                     <div class="text-description text-sm">{{ substr(__('text.atraksi.konten_birdwatching'), 0, 155) }}...</div>
-                                    <button onclick="window.location='{{ url("/atraksi-wisata/birdwatching") }}'" class="btn btn-black-transparent">Selengkapnya <i class="fa-solid fa-arrow-right"></i></button>
+                                    <button onclick="window.location='{{ url("/atraksi-wisata/birdwatching") }}'" class="btn btn-black-transparent">{{__('text.selengkapnya')}} <i class="fa-solid fa-arrow-right"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -39,7 +37,7 @@
                                 </div>
                                 <div class="col-md-8 col-sm-12">
                                     <div class="text-description text-sm">{{ substr(__('text.atraksi.konten_gua'), 0, 155) }}...</div>
-                                    <button onclick="window.location='{{ url("/atraksi-wisata/gua") }}'" class="btn btn-black-transparent">Selengkapnya <i class="fa-solid fa-arrow-right"></i></button>
+                                    <button onclick="window.location='{{ url("/atraksi-wisata/gua") }}'" class="btn btn-black-transparent">{{__('text.selengkapnya')}} <i class="fa-solid fa-arrow-right"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -51,7 +49,7 @@
                                 </div>
                                 <div class="col-md-8 col-sm-12">
                                     <div class="text-description text-sm">{{ substr(__('text.atraksi.konten_keliling'), 0, 155) }}...</div>
-                                    <button onclick="window.location='{{ url("/atraksi-wisata/keliling-danau") }}'" class="btn btn-black-transparent">Selengkapnya <i class="fa-solid fa-arrow-right"></i></button>
+                                    <button onclick="window.location='{{ url("/atraksi-wisata/keliling-danau") }}'" class="btn btn-black-transparent">{{__('text.selengkapnya')}} <i class="fa-solid fa-arrow-right"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -60,7 +58,6 @@
                 </div>
 
           </div>
-        </div>
       </div>
     </section>
     <div class="my-2 py-5">

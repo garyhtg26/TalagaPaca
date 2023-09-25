@@ -10,7 +10,7 @@
                 </div>
               </div>
               <div class="col-12 text-center mt-4">
-                <button class="learn-more">
+                <button  onclick="window.location='{{ url("/about") }}'" class="learn-more">
                   <span class="circle" aria-hidden="true">
                     <span class="icon arrow"></span>
                   </span>
