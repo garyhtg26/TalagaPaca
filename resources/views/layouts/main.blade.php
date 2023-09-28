@@ -50,11 +50,11 @@
                     <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 {{ Request::routeIs('atraksi-wisata') ? 'active' : '' }}">
                       <a class="nav-link" href="/atraksi-wisata">{{ __('text.menu.atraksi') }}</a>
                     </li>
-                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                      <a class="nav-link" href="/comming-soon">{{ __('text.menu.fasilitas') }}</a>
+                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 {{ Request::routeIs('facility') ? 'active' : '' }}">
+                      <a class="nav-link" href="/facility">{{ __('text.menu.fasilitas') }}</a>
                     </li>
-                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                      <a class="nav-link" href="/comming-soon">{{ __('text.menu.produk') }}</a>
+                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 {{ Request::routeIs('product') ? 'active' : '' }}">
+                      <a class="nav-link" href="/product">{{ __('text.menu.produk') }}</a>
                     </li>
                     <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                       <a class="nav-link" href="/comming-soon">{{ __('text.menu.event') }}</a>
@@ -66,15 +66,7 @@
                       <a class="nav-link" href="/comming-soon">{{ __('text.menu.akses') }}</a>
                     </li>
                   </ul>
-                </div>
-                <div class="collapse navbar-collapse" id="langBtn" style="justify-content: right">
-                    <div class="pl-4 pl-md-0 ml-0 ml-md-4">
-                        {{-- <a onclick="showLanguages()" class="lang-drpdwn-btn nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                            EN <img class="mb-1" src="{{ asset('img/en.png') }}" height="19"></a>
-                        <div class="dropdown-language">
-                            <a class="dropdown-item" href="#">English</a>
-                            <a class="dropdown-item" href="#">Indonesia</a>
-                        </div> --}}
+                  <div class="pl-4 pl-md-0 ml-0 ml-md-5">
                         <div id="imgLang" style="display: inline">
                             <img class="mb-1" src="{{ asset('img/en.png') }}" height="19">
                         </div>
@@ -83,6 +75,17 @@
                             <option value="id" {{ session()->get('locale') == 'id' ? 'selected' : '' }}>Id <img class="mb-1" src="{{ asset('img/id.png') }}" height="19"></option>
                         </select>
                     </div>
+                </div>
+                <div class="collapse navbar-collapse" id="langBtn" style="justify-content: right">
+                    {{-- <div class="pl-4 pl-md-0 ml-0 ml-md-5">
+                        <div id="imgLang" style="display: inline">
+                            <img class="mb-1" src="{{ asset('img/en.png') }}" height="19">
+                        </div>
+                        <select id="selectLang" class="Langchange">
+                            <option value="en" {{ session()->get('locale') == 'en' ? 'selected' : '' }}>En <img class="mb-1" src="{{ asset('img/en.png') }}" height="19"></option>
+                            <option value="id" {{ session()->get('locale') == 'id' ? 'selected' : '' }}>Id <img class="mb-1" src="{{ asset('img/id.png') }}" height="19"></option>
+                        </select>
+                    </div> --}}
                 </div>
               </nav>
             </div>

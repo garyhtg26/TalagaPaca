@@ -40,6 +40,14 @@ return [
         "guide" => "Guide Ekowisata",
         "konten_guide" => "Bagi para pengunjung yang ingin melakukan wisata jungle tracking, bird watching dan wisata gua dapat didampingi oleh pemandu wisata/guide yang merupakan masyarakat Desa Talaga Paca. Para guide memahami kondisi lapangan dan telah dibekali dengan kemampuan berbahasa Inggris.",
 	],
+    "produk" => [
+		"title" => "Produk Lokal",
+        "pala" => "Produk Olahan Pala",
+        "konten_pala" => "Beranekaragaman produk pangan olahan pala yang tersedia meliputi manisan, permen, sirup dan selai. Produk-produk olahan pala dihasilkan oleh ibu-ibu Desa Talaga Paca yang tergabung dalam Kelompok Usaha Perhutanan Social (KUPS) Opal (Olahan pala).",
+        "kerajinan" => "Kerajinan Tradisional",
+        "konten_kerajinan" => "Masyarakat Desa Talaga Paca memiliki kreatifitas menghasilkan berbagai kerajinan tradisional yang dapat dijadikan sebagai souvenir. Sejumlah  produk kerajinan tradisional yang tersedia meliputi salawaku, susiru, saloi, dll.",
+        ],
+        "test" => "tes isi",
 	"button" => "Simpan",
 	"thank" => "Terima kasih atas kontribusi anda.",
 

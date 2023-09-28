@@ -41,6 +41,23 @@ Route::get('/atraksi-wisata/keliling-danau', function () {
     return view('components.atraksi.keliling-danau');
 })->name('atraksi-wisata');
 
+Route::get('/facility', function () {
+    return view('components.facility');
+})->name('facility');
+
+Route::get('/product', function () {
+    return view('components.product');
+})->name('product');
+
+Route::get('/product/pala', function () {
+    return view('components.product.pala');
+})->name('product');
+
+Route::get('/product/kerajinan', function () {
+    return view('components.product.kerajinan');
+})->name('product');
+
+
 Route::get('/comming-soon', function () {
     return view('components.commingsoon');
 })->name('comming-soon');

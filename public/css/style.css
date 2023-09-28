@@ -654,15 +654,22 @@ button:hover .button-text {
 	letter-spacing: 2px;
   }
   #about-expand {
-	/* background-image: url(/img/Halmahera2.png);
-	padding: 2rem 0px;
-    background-repeat: no-repeat;
-    background-size: 20%;
-    background-position: 96%; */
 	padding: 2rem 0px;
 	letter-spacing: 2px;
 	background: url(/img/Halmahera2.png) 96% no-repeat, url(/img/Halmahera2.png) 4% no-repeat;
-    background-size: 25%;
+    background-size: 20%;
+}
+#facility {
+	padding: 2rem 0px;
+	letter-spacing: 2px;
+	background: url(/img/Halmahera2.png) 96% 100% no-repeat, url(/img/Halmahera2.png) 4% 0% no-repeat;
+    background-size: 20%;
+}
+#product {
+	padding: 2rem 0px;
+	letter-spacing: 2px;
+	background: url(/img/Halmahera2.png) 96% 0% no-repeat, url(/img/Halmahera2.png) 4% 100% no-repeat;
+    background-size: 20%;
 }
   .text-title {
 	color: #146C94;
@@ -670,6 +677,11 @@ button:hover .button-text {
 	font-weight: 900;
 	text-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
   }
+  .text-subtitle {
+	color: #146C94;
+    font-weight: 600;
+    margin: auto;
+ }
   .w-30{
     width: 30%;
   }
@@ -915,6 +927,14 @@ button:hover .button-text {
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
+.img-produk{
+    width: 100%;
+    max-height: 16vw;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
 
 .img-atraksi-title{
     display: block;
@@ -979,7 +999,7 @@ button:hover .button-text {
 
 
 
-  .bgimg-1, .bgimg-2, .bgimg-3,.bgimg-4 {
+  .bgimg-1, .bgimg-2, .bgimg-3,.bgimg-4,.bgimg-5,.bgimg-6 {
     position: relative;
     opacity: 0.90;
     background-attachment: fixed;
@@ -1004,15 +1024,28 @@ button:hover .button-text {
     background-image: url(../img/AtraksiWisata/KelilingDanau/perahu3.jpg);
     height: 30vw;
   }
+  .bgimg-5 {
+    background-image: url(../img/Produk/OlahanPala.jpeg);
+    height: 30vw;
+  }
+  .bgimg-6 {
+    background-image: url(../img/Produk/Kerajinan.jpeg);
+    height: 30vw;
+  }
 
 
   /* Turn off parallax scrolling for tablets and phones */
   @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3,.bgimg-4 {
+    .bgimg-1, .bgimg-2, .bgimg-3,.bgimg-4,.bgimg-5,.bgimg-6 {
       background-attachment: scroll;
+	  height: 80vw;
     }
-  }
 
+  }
+.md-px-5{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
   #map {
     height: 23vw;
     width: 92%;
@@ -1065,6 +1098,14 @@ button:hover .button-text {
         background-position: bottom;
         background-repeat: no-repeat;
     }
+    .md-px-5{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    #map{
+        height: 50vw;
+        width: 100%;
+    }
     .w-80 {
         width: 90% !important;
     }
@@ -1090,6 +1131,10 @@ button:hover .button-text {
     .sm-px-5{
         padding-left: 2rem;
         padding-right: 2rem;
+    }
+    .text-subtitle{
+        width: 100% !important;
+        text-align: center;
     }
  }
 
@@ -1120,4 +1165,22 @@ button:hover .button-text {
     width: 75%;
     border-radius:20px;
     padding: 5%;
+ }
+
+ .card-product {
+    background: #F6F0F0;
+    display: inline-block;
+    border-radius: 20px;
+    margin: 1rem;
+    padding: 4%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+ }
+
+ .card-body {
+    flex: 1 1 auto;
+ }
+
+ .card-footer{
+    background-color: transparent;
+    border-top: none !important;
  }
