@@ -48,12 +48,54 @@ return [
         "kerajinan" => "Traditional Crafts",
         "konten_kerajinan" => "The people of Talaga Paca Village have the creativity to produce various traditional crafts that can be used as souvenirs. A number of traditional handicraft products available include salawaku, susiru, saloi, etc.",
         ],
-        "test" => "test isi",
-	"button" => "Simpan",
-	"thank" => "Terima kasih atas kontribusi anda.",
+
+        "event" => [
+            "menembak" => "The Talaga Paca Shooting Festival ",
+            "konten_menembak" => "The Talaga Paca Shooting Festival was held on 16-18 February 2023. This activity was initiated by the Babinsa of Talaga Paca Village, Sertu Susanto, as one of the shooting athletes. This idea has the support of a number of parties such as Perbakin North Halmahera, Halmahera University, BUMDES and the Forest Management Institute (LPHD) of Talaga Paca Village.
+
+            The theme of the event was “Becoming a Professional and Ecologically Responsible Athlete and Shooting Sports Enthusiast”. Through this theme, hopefully shooting will return to its main function as a professional sport, not for indiscriminate hunting of wild animals which are important for the natural ecosystem, as is often done by a number of individuals in society.
+            ",
+            "maraton" => "Fun Marathon and the Launching of Ecotourism",
+            "konten_maraton" => "The fun marathon event was held on November 8 2022 by traveling a distance of 7 km from the intersection of Paca Village to Talaga Paca Village. The fun marathon continued with the launching of ecotourism carried out by the Regent of North Halmahera, the mayor of Gora Kalwaria, Arkadiusz Strzyzewski, from Poland, the Dandim 1508/Tobelo and the Head of the Environmental Partnership Social Forestry Center (BPSKL) for the Maluku Papua Region.",
+            "festival" => "TALAGA PACA ECOTOURISM FESTIVAL 2023",
+            "segera" => "SOON…"
+    ],
+    "publikasi" => [
+        "title" => "The Minister of Environment and Forestry granted management rights to 865 ha of forest area to Talaga Paca Village",
+        "artikel2" => "Social forestry-based conservation through eco-tourism in the village forest of Talaga Paca, North Halmahera Regency",
+        "konten_artikel2" => "Talaga Paca used to be a community resettlement village of an isolated indigenous community o hongana ma nyawa or Tugutil in North Halmahera Regency, North Maluku Province. In 2019, the Ministry of Environment and Forestry gave approval for the management of a forest area of 865 ha for 35 years in the scheme of village forest to the Talaga Paca Village as part of the social forestry program. Through a wide and strong collaboration between parties, the community is committed to develop ecotourism to improve the community welfare and the conservation of nature. The exploration of biodiversity and ecotourism potential was carried out. There are 36 species of birds identified, some of which are endemic and protected birds. Lake tour, jungle tracking, bird watching, and caving are some ecotourism attractions in the Talaga Paca ecotourism. A total of 30 people of Talaga Paca responded very positive to the social forestry and ecotourism programs in relation with the community empowerment and conservation using the Likert scale. Currently, the people of Talaga Paca have begun to receive the economic benefits of the presence of tourists, and they have a willingness to conserve the nature voluntarily.",
+        "baca" =>"Read Journal"
+    ],
+    "access" => [
+        "title" => "Trip to Talaga Paca",
+        "deskripsi" => "There are two ways to reach Talaga Paca village which are traveling from Ternate City, and Kao, North Halmahera." ,
+        "ternate" => "From Ternate City",
+        "konten_ternate" => "Flight routes to Ternate City are almost available at every international airport.",
+        "kao" => "From Kao",
+        "konten_kao" => "Flights to Kao are available on Tuesdays, Thursdays and Saturdays.",
 
 
+        "information" => "Untuk informasi lebih lanjut, dapat menghubungi Narahubung berikut
+        Sdr. Radios Simanjuntak
+        Pendamping Lembaga Pengelola Hutan Desa (LPHD) Talaga Paca
+        +62 012 3456 7890
+        ",
+        "ternate1" => "Flights: International flights are not available at Sultan Babullah - Ternate airport so foreign passengers can transit to the International Airport first. Flight routes to Ternate City are almost available at every international airport. For domestic flights to Ternate City, they are available at almost all national airports.",
+        "ternate2" => "Ferry: There are 2 sea crossing options to Halmahera Island, by a ferry with the distance about 1 hour 45 minutes while by a speed boat about 30-45 minutes.",
+        "ternate3" => "Car: After arriving at Halmahera Island precisely in Sofifi City, the trip to Tobelo City is continued by a car with the distance about 4 hours.",
+        "ternate4" => "Hotels: There are many choices of hotels in Tobelo City and accommodation with a range of prices...",
+        "ternate5" => "Travel to Talaga Paca: To reach Talaga Paca village, visitors use a car or other motorized vehicle with 20-minutes long.",
+        "ternate6" => "Talaga Paca: Arrive at Talaga Paca village",
+        "ternate7" => "Explore Talaga Paca",
 
+        "kao1" => "Flights: International flights are not yet available at Kuabang - Kao airport so foreign passengers can transit to the International Airport first. Flight routes to Kao are almost available at every international airport. For domestic flights to Kao, they are available in almost all national airports. Flights to Kao are available on Tuesdays, Thursdays and Saturdays.",
+        "kao2" => "Car: After arriving in Kao, the journey to Tobelo City is continued by car with a distance about 2 hours.",
+        "kao3" => "Hotels: There are many choices of hotels in Tobelo City and accommodation with a range of prices...",
+        "kao4" => "Travel to Talaga Paca: To reach Talaga Paca village, visitors use a car or other motorized vehicle with 20-minutes long.",
+        "kao5" => "Talaga Paca: Arrive at Talaga Paca village",
+        "kao6" => "Explore Talaga Paca",
+
+    ],
 
     "menu" => [
 		"berenda" => "Home",

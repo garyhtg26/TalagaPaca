@@ -57,6 +57,27 @@ Route::get('/product/kerajinan', function () {
     return view('components.product.kerajinan');
 })->name('product');
 
+Route::get('/event', function () {
+    return view('components.event');
+})->name('event');
+
+Route::get('/access', function () {
+    return view('components.access');
+})->name('access');
+
+Route::get('/access/ternate', function () {
+    return view('components.access.ternate');
+})->name('access');
+
+Route::get('/access/kao', function () {
+    return view('components.access.kao');
+})->name('access');
+
+
+Route::get('/publikasi', function () {
+    return view('components.publikasi');
+})->name('publikasi');
+
 
 Route::get('/comming-soon', function () {
     return view('components.commingsoon');

@@ -56,14 +56,14 @@
                     <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 {{ Request::routeIs('product') ? 'active' : '' }}">
                       <a class="nav-link" href="/product">{{ __('text.menu.produk') }}</a>
                     </li>
-                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                      <a class="nav-link" href="/comming-soon">{{ __('text.menu.event') }}</a>
+                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 {{ Request::routeIs('event') ? 'active' : '' }}">
+                      <a class="nav-link" href="/event">{{ __('text.menu.event') }}</a>
                     </li>
-                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                      <a class="nav-link" href="/comming-soon">{{ __('text.menu.publikasi') }}</a>
+                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 {{ Request::routeIs('publikasi') ? 'active' : '' }}">
+                      <a class="nav-link" href="/publikasi">{{ __('text.menu.publikasi') }}</a>
                     </li>
-                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                      <a class="nav-link" href="/comming-soon">{{ __('text.menu.akses') }}</a>
+                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 {{ Request::routeIs('access') ? 'active' : '' }}">
+                      <a class="nav-link" href="/access">{{ __('text.menu.akses') }}</a>
                     </li>
                   </ul>
                   <div class="pl-4 pl-md-0 ml-0 ml-md-5">

@@ -47,10 +47,51 @@ return [
         "kerajinan" => "Kerajinan Tradisional",
         "konten_kerajinan" => "Masyarakat Desa Talaga Paca memiliki kreatifitas menghasilkan berbagai kerajinan tradisional yang dapat dijadikan sebagai souvenir. Sejumlah  produk kerajinan tradisional yang tersedia meliputi salawaku, susiru, saloi, dll.",
         ],
-        "test" => "tes isi",
-	"button" => "Simpan",
-	"thank" => "Terima kasih atas kontribusi anda.",
+    "event" => [
+		"menembak" => "Festival Menembak Talaga Paca",
+        "konten_menembak" => "Produk Olahan PalaFestival Menembak Talaga Paca digelar pada tanggal 16-18 Februari 2023. Kegiatan ini diinisiasi oleh Babinsa Desa Talaga Paca, Sertu Susanto, sebagai salah seorang atliti menembak. Ide ini mendapat dukungan sejumlah pihak seperti Perbakin Halmahera Utara, Universitas Halmahera, BUMDES dan Lembaga Pengelola Hutan Desa (LPHD) Talaga Paca.
+        Tema kegiatan adalah “Menjadi Atlit dan Pecinta Olahraga Menembak yang Profesional dan Bertanggungjawab secara Ekologis”. Melalui tema ini, diharapkan, menembak kembali kepada fungsi utamanya sebagai sebuah olahraga profesional, bukan untuk berburu sembarangan terhadap satwa liaryang penting bagi ekosistem alam, sebagaimana yang sering dilakukan oleh sejumlah oknum masyarakat.
+        nekaragaman produk pangan olahan pala yang tersedia meliputi manisan, permen, sirup dan selai. Produk-produk olahan pala dihasilkan oleh ibu-ibu Desa Talaga Paca yang tergabung dalam Kelompok Usaha Perhutanan Social (KUPS) Opal (Olahan pala).",
 
+        "maraton" => "Fun Maraton dan Launching Ekowisata",
+        "konten_maraton" => "Kegiatan fun marathon digelar pada tanggal O8 November 2022 dengan menempuh jarak 7 km dari simpang tiga Desa Paca hingga Desa Talaga Paca. Fun marathon dilanjutkan dengan launching ekowisata dilakukan oleh Bupati Halmahera Utara, walikota Gora Kalwaria, Arkadiusz Strzyzewski, dari Polandia, Dandim 1508/Tobelo dan Kepala Balai Perhutanan Sosial Kemitraan Lingkungan (BPSKL) Wilayah Maluku Papua.",
+        "festival" => "FESTIVAL EKOWISATA TALAGA PACA 2023",
+        "segera" => "SEGERA…"
+    ],
+    "publikasi" => [
+        "title" => "Menteri Lingkungan Hidup dan Kehutanan memberikan hak kelola terhadap 865 ha kawasan hutan kepada Desa Talaga Paca",
+        "artikel2" => "Membangun Ekowisata Berbasis Perhutanan Sosial di Desa Talaga Paca, Kabupaten Halmahera Utara",
+        "konten_artikel2" => "Desa Talaga Paca memiliki potensi wisata alam berupa danau, gua, hutan dan keanekaragaman hayati. Potensi kekayaan alam berbanding terbalik dengan kesejahteraan ekonomi masyarakat dengan tingkat kemiskinan sebesar 75%. Selama ini masyarakat tidak menerima manfaat ekonomi dari potensi keindahan alam yang ada. Pada tahun 2019, Kementerian Lingkungan Hidup dan Kehutanan memberikan persetujuan pengelolaan kawasan hutan seluas 865 ha selama 35 tahun dalam bentuk hutan desa kepada Desa Talaga Paca sebagai bagian dari program Perhutanan Sosial. Tim Pengabdian kepada masyarakat (PKM) Universitas Halmahera mengidentifikasi permasalahan utama masyarakat adalah ketidakmampuan mengelola potensi wisata. Tujuan PKM adalah untuk mewujudkan pengelolaan ekowisata Talaga Paca oleh masyarakat sehingga masyarakat bisa menerima manfaat ekonomi bagi kesejahteraan mereka. PKM berlangsung pada Bulan April hingga Oktober 2022. Melalui kolaborasi para pihak, PKM berhasil membangun pengelolaan ekowisata oleh masyarakat. Saat ini telah terdapat kunjungan wisatawan dari dalam maupun luar negeri sehingga masyarakat telah mulai menerima manfaat ekonomi dari kegiatan ekowisata",
+        "baca" =>"Baca Jurnal"
+    ],
+    "access" => [
+        "title" => "Perjalanan ke Talaga Paca",
+        "deskripsi" => "Terdapat dua cara untuk sampai di desa Talaga Paca, yaitu perjalanan dari Kota Ternate, dan Kao, Halmahera Utara." ,
+        "ternate" => "Dari Ternate",
+        "konten_ternate" => "Rute penerbangan menuju Kota Ternate hampir tersedia di tiap bandara internasional.",
+        "kao" => "Dari Kao",
+        "konten_kao" => "Penerbangan ke Kao tersedia pada hari Selasa, Kamis dan Sabtu.",
+        "information" => "Untuk informasi lebih lanjut, dapat menghubungi Narahubung berikut
+        Sdr. Radios Simanjuntak
+        Pendamping Lembaga Pengelola Hutan Desa (LPHD) Talaga Paca
+        +62 012 3456 7890
+        ",
+        "ternate1" => "Penerbangan: di bandara Sultan Babullah - Ternate belum tersedia penerbangan Internasional sehingga pengunjung mancanegara dapat melakukan perjalanan transit ke Bandara Internasional terlebih dahulu. Rute penerbangan menuju Kota Ternate hampir tersedia di tiap bandara internasional. Untuk penerbangan domestik ke Kota Ternate, tersedia hampir di seluruh bandara nasional.",
+        "ternate2" => "Ferry: Terdapat 2 pilihan penyebrangan dari laut ke Pulau Halmahera. Menggunakan Kapal Ferry dengan jarak tempuh -+ 1 jam 45 Menit sedangkan Speed Boat -+ 30-45 Menit.",
+        "ternate3" => "Mobil: Setelah tiba di Pulau Halmahera tepatnya di Kota Sofifi, perjalanan ke Kota Tobelo dilanjutkan menggunakan mobil dengan jarak tempuh -+ 4 Jam.",
+        "ternate4" => "Hotel: di kota Tobelo terdapat banyak pilihan hotel maupun penginapan dengan rentang harga ....",
+        "ternate5" => "Perjalanan Ke Talaga Paca: Untuk mencapai desa Talaga Paca, pengunjung menggunakan mobil atau kendaraan bermotor lainnya dengan kurun waktu 20 Menit perjalanan.",
+        "ternate6" => "Talaga Paca: Tiba di desa Talaga Paca",
+        "ternate7" => "Explore Talaga Paca",
+
+        "kao1" => "Penerbangan: di bandara Kuabang - Kao belum tersedia penerbangan Internasional sehingga pengunjung mancanegara dapat melakukan perjalanan transit ke Bandara Internasional terlebih dahulu. Rute penerbangan menuju Kao hampir tersedia di tiap bandara internasional. Untuk penerbangan domestik ke Kao, tersedia hampir di seluruh bandara nasional. Penerbangan ke Kao tersedia pada hari Selasa, Kamis dan Sabtu.",
+        "kao2" => "Mobil: Setelah tiba di Kao, perjalanan ke Kota Tobelo dilanjutkan menggunakan mobil dengan jarak tempuh -+ 2 Jam.",
+        "kao3" => "Hotel: di kota Tobelo terdapat banyak pilihan hotel maupun penginapan dengan rentang harga ....",
+        "kao4" => "Perjalanan Ke Talaga Paca: Untuk mencapai desa Talaga Paca, pengunjung menggunakan mobil atau kendaraan bermotor lainnya dengan kurun waktu 20 Menit perjalanan.",
+        "kao5" => "Talaga Paca: Tiba di desa Talaga Paca",
+        "kao6" => "Explore Talaga Paca",
+
+    ],
 
 
 
