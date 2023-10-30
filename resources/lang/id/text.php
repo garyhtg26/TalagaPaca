@@ -30,22 +30,25 @@ return [
     "fasilitas" => [
 		"available" => "Fasilitas yang tersedia di Talaga Paca",
         "aula" => "Aula",
-        "konten_aula" => "Terdapat bangunan aula yang dapat memuat sekitar 60 orang. Aula berada di pinggir talaga/danau sehingga sangat menyenangkan dijadikan sebagai tempat rapat dan berdiskusi.",
+        "konten_aula" => "Aula mampu menampung sekitar 50 orang. Aula berada di pinggir danau dengan view alam yang sangat mengesankan sehingga sangat menyenangkan sebagai tempat rapat dan pertemuan.",
         "camping" => "Camping Ground",
-        "konten_camping" => "Berada di pinggir telaga/danau, dekat dengan pemukiman. Sangat ideal untuk kegiatan camping bersama.",
+        "konten_camping" => "Jika pengunjung senang akomodasi di alam terbuka, tersedia sejumlah tenda dan areal camping ground yang berada di pinggir danau.",
         "rumahMakan" => "Rumah Makan",
         "konten_rumahMakan" => "Pengunjung bisa menikmati ikan nila dan belut hasil tangkapan atau pemeliharaan di danau. Rumah makan berada di pinggir jalan telaga sehingga sangat menyenangkan menikmati hidangan ikan segar sembari melihat pemandangan danau dan hutan.",
         "toilet" => "Toilet",
-        "konten_toilet" => "Tersedia toilet dan ruang ganti pakaian yang bersih bagi para pengunjung. Sehabis mandi di danau, pengunjung bisa berbilas di toilet/kamar mandi.",
-        "guide" => "Guide Ekowisata",
+        "konten_toilet" => "Tersedia toilet umum yang bersih. Pengunjung yang mandi di danau juga bisa memanfaatkan fasilitas ruang ganti yang ada di toilet untuk berganti pakaian.",
+        "guide" => "Pemandu Ekowisata",
         "konten_guide" => "Bagi para pengunjung yang ingin melakukan wisata jungle tracking, bird watching dan wisata gua dapat didampingi oleh pemandu wisata/guide yang merupakan masyarakat Desa Talaga Paca. Para guide memahami kondisi lapangan dan telah dibekali dengan kemampuan berbahasa Inggris.",
+        "kantin" => "Kantin",
+        "konten_kantin" => "Kantin UMKM Ta’aga Marahai di pinggir danau menyediakan aneka makanan dan minuman seperti ikan bakar, ayam goreng, nasi goreng, aneka jus, berbagai makanan olahan pala, dll dengan harga yang terjangkau.",
+
 	],
     "produk" => [
 		"title" => "Produk Lokal",
         "pala" => "Produk Olahan Pala",
-        "konten_pala" => "Beranekaragaman produk pangan olahan pala yang tersedia meliputi manisan, permen, sirup dan selai. Produk-produk olahan pala dihasilkan oleh ibu-ibu Desa Talaga Paca yang tergabung dalam Kelompok Usaha Perhutanan Social (KUPS) Opal (Olahan pala).",
+        "konten_pala" => "Tersedia sirup, permen, manisan dan selai yang dihasilkan dari pengolahan buah pala. Aneka produk ini dihasilkan oleh ibu-ibu yang tergabung dalam Kelompok Usaha Perhutanan Sosial (KUPS) OPAL (Olahan Pangan Lokal). Masyarakat di Halmahera umumnya hanya memanfaatkan pala dari fuli dan daging biji pala, sementara buah pala (bagian luar) tidak memiliki nilai ekonomi. ",
         "kerajinan" => "Kerajinan Tradisional",
-        "konten_kerajinan" => "Masyarakat Desa Talaga Paca memiliki kreatifitas menghasilkan berbagai kerajinan tradisional yang dapat dijadikan sebagai souvenir. Sejumlah  produk kerajinan tradisional yang tersedia meliputi salawaku, susiru, saloi, dll.",
+        "konten_kerajinan" => "Tersedia salawaku (perisai), saloi (keranjang), susiru (tampi beras), tikar, gata-gata, dll. Berbagai produk kerajinan ini biasanya digunakan masyarakat untuk kegiatan tradisi dan aktifitas sehari-hari sebagai petani.",
         ],
     "event" => [
 		"menembak" => "Festival Menembak Talaga Paca",
@@ -71,23 +74,24 @@ return [
         "konten_ternate" => "Rute penerbangan menuju Kota Ternate hampir tersedia di tiap bandara internasional.",
         "kao" => "Dari Kao",
         "konten_kao" => "Penerbangan ke Kao tersedia pada hari Selasa, Kamis dan Sabtu.",
-        "information" => "Untuk informasi lebih lanjut, dapat menghubungi Narahubung berikut
-        Sdr. Radios Simanjuntak
-        Pendamping Lembaga Pengelola Hutan Desa (LPHD) Talaga Paca
-        +62 012 3456 7890
+        "information" => "Narahubung:
+        Radios Simanjuntak
+        Dosen Prodi Kehutanan Universitas Halmahera / Pendamping Lembaga Pengelola Hutan Desa Talaga Paca
+        +62 813 7602 9057
+        radiossimanjuntak@gmail.com
         ",
-        "ternate1" => "Penerbangan: di bandara Sultan Babullah - Ternate belum tersedia penerbangan Internasional sehingga pengunjung mancanegara dapat melakukan perjalanan transit ke Bandara Internasional terlebih dahulu. Rute penerbangan menuju Kota Ternate hampir tersedia di tiap bandara internasional. Untuk penerbangan domestik ke Kota Ternate, tersedia hampir di seluruh bandara nasional.",
-        "ternate2" => "Ferry: Terdapat 2 pilihan penyebrangan dari laut ke Pulau Halmahera. Menggunakan Kapal Ferry dengan jarak tempuh -+ 1 jam 45 Menit sedangkan Speed Boat -+ 30-45 Menit.",
-        "ternate3" => "Mobil: Setelah tiba di Pulau Halmahera tepatnya di Kota Sofifi, perjalanan ke Kota Tobelo dilanjutkan menggunakan mobil dengan jarak tempuh -+ 4 Jam.",
-        "ternate4" => "Hotel: di kota Tobelo terdapat banyak pilihan hotel maupun penginapan dengan rentang harga ....",
-        "ternate5" => "Perjalanan Ke Talaga Paca: Untuk mencapai desa Talaga Paca, pengunjung menggunakan mobil atau kendaraan bermotor lainnya dengan kurun waktu 20 Menit perjalanan.",
+        "ternate1" => "Pengunjung dari luar Provinsi Maluku Utara bisa datang melalui Bandara Baabulah di Ternate dengan menggunakan penerbangan dari Jakarta, Makasar, Manado dan Ambon.",
+        "ternate2" => "Dari Ternate menyeberang ke Sofifi, ibukota Provinsi Maluku Utara, menggunakan speedboat selama 45 menit (harga tiket Rp.60.000,-) atau kapal fery selama 2 jam (harga tiket Rp.25.000,-).",
+        "ternate3" => "Dari Sofifi ke Tobelo, ibukota Kabupaten Halmahera Utara, menggunakan mobil penumpang selama 4 jam atau dari Sofifi langsung ke Desa Talaga Paca menggunakan mobil penumpang selama 3,5 jam. Harga tiket Rp. 200.000,-.",
+        "ternate4" => "a) Di Tobelo tersedia berbagai hotel dengan kisaran harga Rp.250.000,- s/d Rp. 800.000,- per malam. b) Di Desa Talaga Paca terdapat ta’aga paca cottage dengan harga Rp. 1.000.000,-   per malam atau bisa menginap di rumah masyarakat atau menggunakan tenda di camping ground.",
+        "ternate5" => "Dari Tobelo ke Desa Talaga Paca perjalanan bisa ditempuh selama 30 menit menggunakan mobil atau sepeda motor dengan aksesibilitas jalan raya yang cukup baik.",
         "ternate6" => "Talaga Paca: Tiba di desa Talaga Paca",
         "ternate7" => "Explore Talaga Paca",
 
-        "kao1" => "Penerbangan: di bandara Kuabang - Kao belum tersedia penerbangan Internasional sehingga pengunjung mancanegara dapat melakukan perjalanan transit ke Bandara Internasional terlebih dahulu. Rute penerbangan menuju Kao hampir tersedia di tiap bandara internasional. Untuk penerbangan domestik ke Kao, tersedia hampir di seluruh bandara nasional. Penerbangan ke Kao tersedia pada hari Selasa, Kamis dan Sabtu.",
-        "kao2" => "Mobil: Setelah tiba di Kao, perjalanan ke Kota Tobelo dilanjutkan menggunakan mobil dengan jarak tempuh -+ 2 Jam.",
-        "kao3" => "Hotel: di kota Tobelo terdapat banyak pilihan hotel maupun penginapan dengan rentang harga ....",
-        "kao4" => "Perjalanan Ke Talaga Paca: Untuk mencapai desa Talaga Paca, pengunjung menggunakan mobil atau kendaraan bermotor lainnya dengan kurun waktu 20 Menit perjalanan.",
+        "kao1" => "Pengunjung dari luar Provinsi Maluku Utara bisa datang melalui Bandara Kuabang Kao di Kecamatan Kao, Kab. Halmahera Utara, dengan menggunakan penerbangan dari Manado.",
+        "kao2" => "Dari Kao ke Tobelo, ibukota Kabupaten Halmahera Utara, menggunakan mobil penumpang selama 1,5 jam atau dari Kao langsung ke Desa Talaga Paca menggunakan mobil penumpang selama 1 jam. Harga tiket Rp. 100.000,-.",
+        "kao3" => "a) Di Tobelo tersedia berbagai hotel dengan kisaran harga Rp.250.000,- s/d Rp. 800.000,- per malam. b) Di Desa Talaga Paca terdapat ta’aga paca cottage dengan harga Rp. 1.000.000,-   per malam atau bisa menginap di rumah masyarakat atau menggunakan tenda di camping ground.",
+        "kao4" => "Dari Tobelo ke Desa Talaga Paca perjalanan bisa ditempuh selama 30 menit menggunakan mobil atau sepeda motor dengan aksesibilitas jalan raya yang cukup baik.",
         "kao5" => "Talaga Paca: Tiba di desa Talaga Paca",
         "kao6" => "Explore Talaga Paca",
 

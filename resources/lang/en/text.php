@@ -30,23 +30,25 @@ return [
     "fasilitas" => [
 		"available" => "The facilities available in Talaga Paca",
         "aula" => "A Hall",
-        "konten_aula" => "There is a Hall building that can accommodate about 60 people. The hall is on the edge of the lake so it is very pleasant to be used as a meeting and discussion place.",
+        "konten_aula" => "The hall can accommodate around 50 people. The hall is on the edge of the lake with a very impressive natural view so it is very pleasant as a place for meetings and gatherings.",
         "camping" => "Camping Ground",
-        "konten_camping" => "Located on the edge of the lake, close to residential areas. It is very ideal for group camping activities.",
+        "konten_camping" => "If visitors like accommodation in an open area, there are a number of tents and a camping ground area available on the edge of the lake.",
         "rumahMakan" => "Food Stall",
         "konten_rumahMakan" => "Visitors can enjoy tilapia fish and eels that caught or reared in the lake. The food stall is located on the edge of road beside the lake so it is very pleasant to enjoy fresh fish dishes while looking at the lake and forest views.",
         "toilet" => "Toilet",
-        "konten_toilet" => "Clean toilets and changing rooms are available for visitors. After bathing in the lake, visitors can rinse in the toilet/bathroom.",
+        "konten_toilet" => "Clean public toilets are available. Visitors who bathe in the lake can also use the changing room facilities in the toilet to change clothes.",
         "guide" => "Ecotourism Guide",
         "konten_guide" => "For visitors who want to do jungle tracking tours, bird watching and cave tours, they can be accompanied by a tour guide who is a resident of Talaga Paca Village. The guides understand the field conditions and have been equipped with English language skills.",
-	],
+        "kantin" => "Canteen",
+        "konten_kantin" => "The Ta'aga Marahai canteen which is on the edge of the lake provides various foods and drinks such as grilled fish, fried chicken, fried rice, various juices, various processed nutmeg foods, etc. at affordable prices.",
+    ],
 
     "produk" => [
 		"title" => "Local Product",
         "pala" => "Processed Nutmeg Products",
-        "konten_pala" => "The variety of processed nutmeg food products available includes sweets, candies, syrups and jams. Processed nutmeg products are produced by the women of Talaga Paca village who are members of the Opal (processed nutmeg) Social Forestry Business Group.",
+        "konten_pala" => "There are syrups, candies, sweets and jams produced from processing nutmeg. These various products are produced by women who are members of the OPAL (Local Food Processed) Social Forestry Business Group (SFBG).",
         "kerajinan" => "Traditional Crafts",
-        "konten_kerajinan" => "The people of Talaga Paca Village have the creativity to produce various traditional crafts that can be used as souvenirs. A number of traditional handicraft products available include salawaku, susiru, saloi, etc.",
+        "konten_kerajinan" => "Salawaku (shield), saloi (basket), susiru (rice tray), mats, gata-gata, etc. are available. These various craft products are usually used by the community for traditional activities and daily activities as farmers.",
         ],
 
         "event" => [
@@ -75,23 +77,24 @@ return [
         "konten_kao" => "Flights to Kao are available on Tuesdays, Thursdays and Saturdays.",
 
 
-        "information" => "Untuk informasi lebih lanjut, dapat menghubungi Narahubung berikut
-        Sdr. Radios Simanjuntak
-        Pendamping Lembaga Pengelola Hutan Desa (LPHD) Talaga Paca
-        +62 012 3456 7890
+        "information" => "Contact Person:
+        Radios Simanjuntak
+        Lecturer in the Forestry Study Program at Halmahera University / Companion of the Social Forestry program in Talaga Paca Village
+        +62 813 7602 9057
+        radiossimanjuntak@gmail.com
         ",
-        "ternate1" => "Flights: International flights are not available at Sultan Babullah - Ternate airport so foreign passengers can transit to the International Airport first. Flight routes to Ternate City are almost available at every international airport. For domestic flights to Ternate City, they are available at almost all national airports.",
-        "ternate2" => "Ferry: There are 2 sea crossing options to Halmahera Island, by a ferry with the distance about 1 hour 45 minutes while by a speed boat about 30-45 minutes.",
-        "ternate3" => "Car: After arriving at Halmahera Island precisely in Sofifi City, the trip to Tobelo City is continued by a car with the distance about 4 hours.",
-        "ternate4" => "Hotels: There are many choices of hotels in Tobelo City and accommodation with a range of prices...",
-        "ternate5" => "Travel to Talaga Paca: To reach Talaga Paca village, visitors use a car or other motorized vehicle with 20-minutes long.",
+        "ternate1" => "Visitors from outside North Maluku Province can come via Baabulah Airport in Ternate using flights from Jakarta, Makasar, Manado and Ambon.",
+        "ternate2" => "From Ternate, cross to Sofifi, the capital of North Maluku Province, by speedboat for 45 minutes (ticket price Rp. 60,000,-) or by ferry for 2 hours (ticket price Rp. 25,000,-).",
+        "ternate3" => "From Sofifi to Tobelo, the capital of North Halmahera Regency, using a passenger car for 4 hours, or from Sofifi directly to Talaga Paca Village using a passenger car for 3.5 hours. Ticket price Rp. 200,000,-.",
+        "ternate4" => "a) In Tobelo there are various hotels available with a price range of IDR 250,000 to IDR. 800,000,- per night. b) In Talaga Paca Village there is a Ta'aga Paca cottage with a price of Rp. 1,000,000,- per night or you can stay at a community house or use a tent at a camping ground.",
+        "ternate5" => "From Tobelo to Talaga Paca Village the journey can be taken in 30 minutes by car or motorbike with fairly good road accessibility.",
         "ternate6" => "Talaga Paca: Arrive at Talaga Paca village",
         "ternate7" => "Explore Talaga Paca",
 
-        "kao1" => "Flights: International flights are not yet available at Kuabang - Kao airport so foreign passengers can transit to the International Airport first. Flight routes to Kao are almost available at every international airport. For domestic flights to Kao, they are available in almost all national airports. Flights to Kao are available on Tuesdays, Thursdays and Saturdays.",
-        "kao2" => "Car: After arriving in Kao, the journey to Tobelo City is continued by car with a distance about 2 hours.",
-        "kao3" => "Hotels: There are many choices of hotels in Tobelo City and accommodation with a range of prices...",
-        "kao4" => "Travel to Talaga Paca: To reach Talaga Paca village, visitors use a car or other motorized vehicle with 20-minutes long.",
+        "kao1" => "Visitors from outside North Maluku Province can come via Kuabang Kao Airport in Kao District, North Halmahera Regency, using flights from Manado.",
+        "kao2" => "From Kao to Tobelo, the capital of North Halmahera Regency, by passenger car for 1.5 hours, or from Kao directly to Talaga Paca Village by passenger car for 1 hour. Ticket price Rp. 100,000,-.",
+        "kao3" => "a) In Tobelo there are various hotels available with a price range of IDR 250,000 to IDR. 800,000,- per night. b) In Talaga Paca Village there is a Ta'aga Paca cottage with a price of Rp. 1,000,000,- per night or you can stay at a community house or use a tent at a camping ground.",
+        "kao4" => "From Tobelo to Talaga Paca Village the journey can be taken in 30 minutes by car or motorbike with fairly good road accessibility.",
         "kao5" => "Talaga Paca: Arrive at Talaga Paca village",
         "kao6" => "Explore Talaga Paca",
 

@@ -113,7 +113,7 @@
                 <img src="{{ asset('img/phone.svg') }}" style="height: 2rem">
                 <div>
                   Phone <br>
-                  <b>+68 123456789</b>
+                  <b>+68 813 7602 9057</b>
                 </div>
               </div>
             </div>
@@ -149,10 +149,9 @@
 
               <div class="footer-icons">
 
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100095183565281"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://wa.me/6281376029057"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="mailto:radiossimanjuntak@gmail.com"><i class="fa-brands fa-google-plus"></i></a>
 
               </div>
 

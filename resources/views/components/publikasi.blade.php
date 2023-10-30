@@ -14,7 +14,7 @@
              </p>
             </br>
             <div class="w-50 m-auto">
-                <button onclick="window.location='{{ url("https://journal.unilak.ac.id/index.php/dinamisia/article/view/12167/4594") }}'" class="btn btn-black-transparent">{{__('text.publikasi.baca')}} <i class="fa-solid fa-arrow-right"></i></button>
+                <button onclick="window.location='{{session()->get('locale') == 'id' ? url("https://journal.unilak.ac.id/index.php/dinamisia/article/view/12167/4594") : url("https://iopscience.iop.org/article/10.1088/1755-1315/1192/1/012014/pdf") }}'" class="btn btn-black-transparent">{{__('text.publikasi.baca')}} <i class="fa-solid fa-arrow-right"></i></button>
             </div>
         </div>
       </section>

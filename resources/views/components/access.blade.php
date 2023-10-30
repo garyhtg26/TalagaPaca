@@ -42,14 +42,28 @@
             </div>
             <div>
                 <hr class="my-5" style="width:95%;margin:auto;border-top: 2px solid rgba(0,0,0,.1);">
-                <p style="color: #146C94" class="text-center text-description">
-                    {{ substr(__('text.access.information'), 0, 75) }}
+                <p style="color: #146C94" class="text-center text-description w-50 m-auto">
+                    @if (session()->get('locale') == 'id')
+                    {{ substr(__('text.access.information'), 0, 11) }}
                     <br>
-                    <b>{{ substr(__('text.access.information'), 67,40) }}</b>
+                    <b>{{ substr(__('text.access.information'), 12,34) }}</b>
                     <br>
-                    {{ substr(__('text.access.information'), 99,70) }}
+                    {{ substr(__('text.access.information'), 47,100) }}
                     <br>
-                    <b>{{ substr(__('text.access.information'), 170,50) }}</b>
+                    <b>{{ substr(__('text.access.information'), 148,30) }}</b>
+                    <br>
+                    <b>{{ substr(__('text.access.information'), 179,30) }}</b>
+                    @else
+                    {{ substr(__('text.access.information'), 0, 21) }}
+                    <br>
+                    <b>{{ substr(__('text.access.information'), 21,30) }}</b>
+                    <br>
+                    {{ substr(__('text.access.information'), 47,140) }}
+                    <br>
+                    <b>{{ substr(__('text.access.information'), 179,30) }}</b>
+                    <br>
+                    <b>{{ substr(__('text.access.information'), 209,40) }}</b>
+                    @endif
                 </p>
             </div>
         </div>
