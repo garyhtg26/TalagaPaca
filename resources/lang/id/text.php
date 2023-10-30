@@ -49,7 +49,7 @@ return [
         ],
     "event" => [
 		"menembak" => "Festival Menembak Talaga Paca",
-        "konten_menembak" => "Produk Olahan PalaFestival Menembak Talaga Paca digelar pada tanggal 16-18 Februari 2023. Kegiatan ini diinisiasi oleh Babinsa Desa Talaga Paca, Sertu Susanto, sebagai salah seorang atliti menembak. Ide ini mendapat dukungan sejumlah pihak seperti Perbakin Halmahera Utara, Universitas Halmahera, BUMDES dan Lembaga Pengelola Hutan Desa (LPHD) Talaga Paca.
+        "konten_menembak" => "Festival Menembak Talaga Paca digelar pada tanggal 16-18 Februari 2023. Kegiatan ini diinisiasi oleh Babinsa Desa Talaga Paca, Sertu Susanto, sebagai salah seorang atliti menembak. Ide ini mendapat dukungan sejumlah pihak seperti Perbakin Halmahera Utara, Universitas Halmahera, BUMDES dan Lembaga Pengelola Hutan Desa (LPHD) Talaga Paca.
         Tema kegiatan adalah “Menjadi Atlit dan Pecinta Olahraga Menembak yang Profesional dan Bertanggungjawab secara Ekologis”. Melalui tema ini, diharapkan, menembak kembali kepada fungsi utamanya sebagai sebuah olahraga profesional, bukan untuk berburu sembarangan terhadap satwa liaryang penting bagi ekosistem alam, sebagaimana yang sering dilakukan oleh sejumlah oknum masyarakat.
         nekaragaman produk pangan olahan pala yang tersedia meliputi manisan, permen, sirup dan selai. Produk-produk olahan pala dihasilkan oleh ibu-ibu Desa Talaga Paca yang tergabung dalam Kelompok Usaha Perhutanan Social (KUPS) Opal (Olahan pala).",
 

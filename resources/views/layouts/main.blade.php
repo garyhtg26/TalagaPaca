@@ -71,8 +71,8 @@
                             <img class="mb-1" src="{{ asset('img/en.png') }}" height="19">
                         </div>
                         <select id="selectLang" class="Langchange">
-                            <option value="en" {{ session()->get('locale') == 'en' ? 'selected' : '' }}>En <img class="mb-1" src="{{ asset('img/en.png') }}" height="19"></option>
                             <option value="id" {{ session()->get('locale') == 'id' ? 'selected' : '' }}>Id <img class="mb-1" src="{{ asset('img/id.png') }}" height="19"></option>
+                            <option value="en" {{ session()->get('locale') == 'en' ? 'selected' : '' }}>En <img class="mb-1" src="{{ asset('img/en.png') }}" height="19"></option>
                         </select>
                     </div>
                 </div>

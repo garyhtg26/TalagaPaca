@@ -58,7 +58,15 @@ Route::get('/product/kerajinan', function () {
 })->name('product');
 
 Route::get('/event', function () {
-    return view('components.event');
+    return view('components.eventNew');
+})->name('event');
+
+Route::get('/event/menembak', function () {
+    return view('components.event.menembak');
+})->name('event');
+
+Route::get('/event/maraton', function () {
+    return view('components.event.maraton');
 })->name('event');
 
 Route::get('/access', function () {

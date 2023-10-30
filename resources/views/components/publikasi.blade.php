@@ -14,7 +14,7 @@
              </p>
             </br>
             <div class="w-50 m-auto">
-            <button onclick="window.location='{{ url("https://harianhalmahera.com/halut/ekowisata-berbasis-perhutanan-sosial-di-desa-talaga-paca/") }}'" class="btn btn-black-transparent">{{__('text.publikasi.baca')}} <i class="fa-solid fa-arrow-right"></i></button>
+                <button onclick="window.location='{{ url("https://journal.unilak.ac.id/index.php/dinamisia/article/view/12167/4594") }}'" class="btn btn-black-transparent">{{__('text.publikasi.baca')}} <i class="fa-solid fa-arrow-right"></i></button>
             </div>
         </div>
       </section>

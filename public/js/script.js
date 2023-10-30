@@ -102,7 +102,7 @@ $(document).ready(function() {
   });
 
 
-  var map = L.map('map').setView([1.5921522, 127.9042711], 9);
+  var map = L.map('map', {scrollWheelZoom: false}).setView([1.5921522, 127.9042711], 9);
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'

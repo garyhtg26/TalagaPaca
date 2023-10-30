@@ -24,46 +24,46 @@
       <div class="slider">
         <div class="slide-track">
           <div class="slide">
-            <img src="img/partners/dikbud.jpg" height="100" width="250" alt="" />
+            <img src="img/partners/Logo-01.png" class="py-2" height="100" width="250" alt="" />
           </div>
           <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+            <img src="img/partners/Logo-02.png" class="py-2" height="100" width="250" alt="" />
           </div>
           <div class="slide">
-            <img src="img/partners/bumn.png" height="80" width="200" class="mt-3" alt="" />
+            <img src="img/partners/Logo-03.png" class="py-2" height="100" width="250" alt="" />
           </div>
           <div class="slide">
-            <img src="img/partners/dikbud.jpg" height="100" width="250" alt="" />
+            <img src="img/partners/Logo-04.png" class="py-2" height="100" width="250" alt="" />
           </div>
           <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+            <img src="img/partners/Logo-05.png" class="py-2" height="100" width="250" alt="" />
           </div>
           <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+            <img src="img/partners/Logo-06.png" class="py-2" height="100" width="250" alt="" />
           </div>
           <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+            <img src="img/partners/Logo-07.png" class="py-2" height="100" width="250" alt="" />
           </div>
           <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+            <img src="img/partners/Logo-01.png" class="py-2" height="100" width="250" alt="" />
           </div>
           <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+            <img src="img/partners/Logo-02.png" class="py-2" height="100" width="250" alt="" />
           </div>
           <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+            <img src="img/partners/Logo-03.png" class="py-2" height="100" width="250" alt="" />
           </div>
           <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+            <img src="img/partners/Logo-04.png" class="py-2" height="100" width="250" alt="" />
           </div>
           <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+            <img src="img/partners/Logo-05.png" class="py-2" height="100" width="250" alt="" />
           </div>
           <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+            <img src="img/partners/Logo-06.png" class="py-2" height="100" width="250" alt="" />
           </div>
           <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+            <img src="img/partners/Logo-07.png" class="py-2" height="100" width="250" alt="" />
           </div>
         </div>
       </div>
@@ -71,18 +71,18 @@
         <div data-aos="fade-up" data-aos-duration="2000">
             <h3 class="text-center mb-4 text-title">{{ __('text.populer') }}</h3>
             <div class="container carousel">
-            <div class="carousel-card">
-                <img src="img/jungle.jpg">
-            </div>
-            <div class="carousel-card">
-                <img src="img/gua.jpg">
-            </div>
-            <div class="carousel-card">
-                <img src="img/perahu.jpg">
-            </div>
-            <div class="carousel-card">
-                <img src="img/jungle2.jpg">
-            </div>
+                <div class="carousel-card">
+                    <img src="img/jungle.jpg">
+                </div>
+                <div class="carousel-card">
+                    <img src="img/gua.jpg">
+                </div>
+                <div class="carousel-card">
+                    <img src="img/perahu.jpg">
+                </div>
+                <div class="carousel-card">
+                    <img src="img/jungle2.jpg">
+                </div>
             </div>
         </div>
       </section>
@@ -92,6 +92,9 @@
           <p class="w-80 m-auto text-description">{{ substr(__('text.konten_about'), 0, 458) }}</p>
           <button onclick="window.location='{{ url("/about") }}'" class="btn btn-about mt-5">{{ __('text.selengkapnya') }}</button>
         </div>
+      </section>
+      <section id="mapSection">
+        <div class="mt-5" id="map"></div>
       </section>
       <div class="py-5">
     </div>
