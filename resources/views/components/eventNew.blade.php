@@ -29,6 +29,18 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-12 mb-2">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-12">
+                                    <img src="img/Event/festival.jpg" class="img-atraksi">
+                                    <span class="img-atraksi-title"></span>
+                                </div>
+                                <div class="col-md-8 col-sm-12">
+                                    <div class="text-description text-sm">{{ substr(__('text.event.konten_festival'), 0, 155) }}...</div>
+                                    <button onclick="window.location='{{ url("/event/festival") }}'" class="btn btn-black-transparent">{{__('text.selengkapnya')}} <i class="fa-solid fa-arrow-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
                    </div>
 
                 </div>

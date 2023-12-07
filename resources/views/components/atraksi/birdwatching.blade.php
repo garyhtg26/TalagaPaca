@@ -8,7 +8,7 @@
             <p style="color: #146C94;" class="text-justify w-100 md-px-5 m-auto text-description">
                 {{ __('text.atraksi.konten_birdwatching') }} </p>
              {{-- <div class="mt-5" id="map"></div> --}}
-            <img src="../img/AtraksiWisata/Gua/denah.jpg" class="img-denah md-px-5 w-100 mt-5"/>
+            <img src="../img/AtraksiWisata/BirdWatching/denah.jpg" class="img-denah md-px-5 w-100 mt-5"/>
             <div class="container carousel mt-5">
                 <div class="carousel-card">
                     <img src="../img/AtraksiWisata/BirdWatching/mahasiswa.jpg">

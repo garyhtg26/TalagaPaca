@@ -69,6 +69,10 @@ Route::get('/event/maraton', function () {
     return view('components.event.maraton');
 })->name('event');
 
+Route::get('/event/festival', function () {
+    return view('components.event.festival');
+})->name('event');
+
 Route::get('/access', function () {
     return view('components.access');
 })->name('access');

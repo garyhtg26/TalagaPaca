@@ -1021,7 +1021,7 @@ button:hover .button-text {
 
 
 
-  .bgimg-1, .bgimg-2, .bgimg-3,.bgimg-4,.bgimg-5,.bgimg-6,.bgimg-7,.bgimg-8 {
+  .bgimg-1, .bgimg-2, .bgimg-3,.bgimg-4,.bgimg-5,.bgimg-6,.bgimg-7,.bgimg-8, .bgimg-9 {
     position: relative;
     opacity: 0.90;
     background-attachment: fixed;
@@ -1065,10 +1065,16 @@ button:hover .button-text {
     height: 30vw;
   }
 
+  .bgimg-9 {
+    background-image: url(../img/Event/FestivalTalagaPaca/Tari\ kontemporer.jpg);
+    height: 30vw;
+  }
+
+
 
   /* Turn off parallax scrolling for tablets and phones */
   @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3,.bgimg-4,.bgimg-5,.bgimg-6,.bgimg-7, .bgimg-8 {
+    .bgimg-1, .bgimg-2, .bgimg-3,.bgimg-4,.bgimg-5,.bgimg-6,.bgimg-7, .bgimg-8, .bgimg-9 {
       background-attachment: scroll;
 	  height: 80vw;
     }
